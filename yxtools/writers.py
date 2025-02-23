@@ -8,7 +8,13 @@ import os, csv
 classes
 '''
 class base_writer(ABC):
-    def __inti__(self, file:os.PathLike, mode:str='log', **kwargs):
+    def __init__(self, file:os.PathLike, mode:str='log', **kwargs):
+        """
+        #### Writer Base Class, for writing logs, csv, etc.
+        file: str, the file path
+        mode: str, the mode of the file, default is 'log'
+        kwargs: dict, the key-value pairs for the file name
+        """
         mode = "." + mode if mode[0] != '.' else mode
 
         self.flag = False

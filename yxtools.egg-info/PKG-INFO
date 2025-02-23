@@ -1,0 +1,8 @@
+Metadata-Version: 2.2
+Name: yxtools
+Version: 1.0
+Requires-Dist: numpy
+Requires-Dist: pillow
+Requires-Dist: SimpleITK
+Requires-Dist: scipy
+Dynamic: requires-dist
