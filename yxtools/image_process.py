@@ -42,7 +42,7 @@ def normalize_01(img):
 
 
 if __name__ == '__main__':
-    from yaoxin_tools import usual_reader
+    from yxtools import usual_reader
     import torch
     import numpy as np
     reader = usual_reader()

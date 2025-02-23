@@ -1,5 +1,5 @@
 from matplotlib import pyplot as plt
-from yaoxin_tools.tools import usual_reader, os
+from yxtools.tools import usual_reader, os
 
 import torch
 

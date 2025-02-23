@@ -8,6 +8,7 @@ setup(
         # 列出你的工具包依赖的其他包
         'numpy',
         'pillow',
-        'SimpleITK'
+        'SimpleITK',
+        'scipy'
     ],
 )
